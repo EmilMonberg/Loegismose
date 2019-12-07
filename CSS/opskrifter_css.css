@@ -1,0 +1,764 @@
+/* Reset alt */
+* {
+    margin: 0;
+}
+
+.container_desktop {
+    display: none;
+}
+
+.container {
+    background-color: #fffbe7;
+}
+
+/* grid layout */
+.container {
+    display: grid;
+    grid-template-rows: 12vw 65vw auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "nav"
+        "banner"
+        "salg"
+        "emner"
+        "footer"
+}
+
+.header {
+    grid-area: nav;
+        z-index: 100;
+}
+
+.banner {
+    grid-area: banner;
+}
+
+.emner {
+    grid-area: emner;
+    background-color: whitesmoke;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+.salg {
+    grid-area: salg;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.indhold {
+    display: none;
+}
+
+.indhold2 {
+    display: none;
+}
+
+.emner_grid {
+    display: grid;
+    grid-template-rows: 30vw auto 30vw auto 30vw auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "op1 op2"
+        "t1 t2"
+        "op3 op4"
+        "t3 t4"
+        "op5 op6"
+        "t5 t6"
+
+}
+
+.op1 {
+    grid-area: op1;
+}
+
+.op2 {
+    grid-area: op2;
+}
+
+.op3 {
+    grid-area: op3;
+    background: url('../Images/noedde-opskrift.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.op4 {
+    grid-area: op4;
+    background: url('../Images/falafel-opskrift.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.op5 {
+    grid-area: op5;
+    background: url('../Images/gryderet-opskrift.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.op6 {
+    grid-area: op6;
+    background: url('../Images/noedde-opskrift.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.t1 {
+    grid-area: t1;
+}
+
+.t2 {
+    grid-area: t2;
+}
+
+.t3 {
+    grid-area: t3;
+}
+
+.t4 {
+    grid-area: t4;
+}
+
+.t5 {
+    grid-area: t5;
+}
+
+.t6 {
+    grid-area: t6;
+}
+
+/* grid layout slut */
+
+/* Links */
+.link {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f05454;
+}
+
+/* Links slut */
+
+/* Header */
+
+.header {
+    background-color: white;
+}
+
+.nav_some {
+    display: flex;
+    float: left;
+}
+
+.nav_element {
+    margin-left: -40px;
+    margin-top: 5px;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav_instagram {
+    margin-left: -5px;
+}
+
+.some_logo {
+    float: left;
+    width: 30px;
+}
+
+.logo {
+    width: 22vw;
+    margin-right: 21%;
+
+}
+
+/*Burger menu */
+
+.nav {
+    border-top: 1px solid #9d9898;
+    border-bottom: 1px solid #9d9898;
+    text-align: right;
+    line-height: 50px;
+    height: auto;
+    min-height: 50px;
+
+}
+
+.menu {
+    margin: 0 20px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 50px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/* burger menu slut */
+
+/* Header slut */
+
+/* Banner */
+.banner {
+    background: url('../Images/opskrift-banner-mobil.jpg') no-repeat center;
+    background-size: 100%;
+}
+
+/* Banner slut */
+
+/* emner */
+.artikel {
+    background-color: whitesmoke;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+    border: 1px solid black;
+}
+
+.overskrift {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 2.5em;
+}
+
+.broedtekst {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bil {
+    width: 95%;
+    margin: 5%;
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.op1 {
+    background: url('../Images/falafel-opskrift.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.op2 {
+    background: url('../Images/gryderet-opskrift.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+.tekst {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.1em;
+    z-index: 2;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.klik {
+    background-color: #e7d5a0;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 3px;
+    font-family: 'Lobster', cursive;
+    color: #3c400d;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* emner slut */
+
+
+
+/* footer */
+
+.footer {
+    background-color: #363535;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.footer_overskrift {
+    padding-top: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+.footer_underskrift {
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.footer_broedtekst {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* footer slut */
+
+@media only screen and (max-width: 699px) {
+
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav {
+        position: fixed;
+        width: 100%;
+
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .container {
+        display: none;
+    }
+
+    /* Grid layout */
+    .container_desktop {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "nav"
+            "banner"
+            "salg"
+            "artikel"
+            "footer"
+    }
+
+    .header {
+        grid-area: nav;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .artikel {
+        grid-area: artikel;
+    }
+
+    .salg {
+        grid-area: salg;
+    }
+
+    .foot {
+        grid-area: footer;
+        margin-top: 30px;
+        background-color: #363535;
+        color: white;
+    }
+
+    .artikel_grid {
+        display: grid;
+        grid-template-rows: 21vw auto 21vw auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "op1 op2 op3"
+            "t1 t2 t3"
+            "op4 op5 op6"
+            "t4 t5 t6"
+    }
+
+    .op1 {
+        grid-area: op1;
+        background: url('../Images/falafel-opskrift.jpg') no-repeat center;
+        background-size: 100%;
+        border: 1px solid black;
+    }
+
+    .op2 {
+        grid-area: op2;
+        background: url('../Images/gryderet-opskrift.jpg') no-repeat center;
+        background-size: 100%;
+        border: 1px solid black;
+    }
+
+    .op3 {
+        grid-area: op3;
+        background: url('../Images/noedde-opskrift.jpg') no-repeat center;
+        background-size: 100%;
+        border: 1px solid black;
+    }
+
+    .op4 {
+        grid-area: op4;
+        background: url('../Images/gryderet-opskrift.jpg') no-repeat center;
+        background-size: 100%;
+        border: 1px solid black;
+    }
+
+    .op5 {
+        grid-area: op5;
+        background: url('../Images/noedde-opskrift.jpg') no-repeat center;
+        background-size: 100%;
+        border: 1px solid black;
+    }
+
+    .op6 {
+        grid-area: op6;
+        background: url('../Images/falafel-opskrift.jpg') no-repeat center;
+        background-size: 100%;
+        border: 1px solid black;
+    }
+
+    .t1 {
+        grid-area: t1;
+    }
+
+    .t2 {
+        grid-area: t2;
+    }
+
+    .t3 {
+        grid-area: t3;
+    }
+
+    .t4 {
+        grid-area: t4;
+    }
+
+    .t5 {
+        grid-area: t5;
+    }
+
+    .t6 {
+        grid-area: t6;
+    }
+
+
+    /* Grid layout slut */
+
+    .emner {
+        display: none;
+    }
+
+    .nav_some {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .container_desktop {
+        background-color: #fffbe7;
+    }
+
+    .nav_liste_desktop {
+        border-top: 1px solid #9d9898;
+        border-bottom: 1px solid #9d9898;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .nav_emner {
+        margin-top: 15px;
+        font-family: 'Cookie', cursive;
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+
+    .desk_logo {
+        width: 100px;
+    }
+
+    .artikel {
+        background-color: whitesmoke;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        border: none;
+    }
+    
+     .artikel_salg {
+        background-color: whitesmoke;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        border: none;
+    }
+
+    .overs {
+        text-align: center;
+        font-family: 'Cookie', cursive;
+        font-size: 2.5em;
+    }
+
+    .broedtekst {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1em;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer_grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "kontakt firma some";
+
+    }
+
+    .kontakt_grid {
+        grid-area: kontakt;
+        text-align: center;
+        padding-left: 30%;
+
+    }
+
+    .firma_grid {
+        grid-area: firma;
+        text-align: center;
+    }
+
+    .some_grid {
+        grid-area: some;
+        text-align: center;
+        padding-right: 30%;
+    }
+
+
+    .kontakt_footer {
+        text-align: center;
+        list-style: none;
+        padding-right: 20%;
+    }
+
+    .footer_overskrift {
+        font-size: 1.5em;
+        margin-top: 30%;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .footer_some {
+        list-style: none;
+        text-align: center;
+        padding-bottom: 10%;
+        padding-right: 15%;
+    }
+
+    .firma_overskrift {
+        font-size: 3em;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    .container {
+        display: none;
+    }
+
+    /* Grid layout */
+    .container_desktop {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "nav"
+            "banner"
+            "salg"
+            "artikel"
+            "footer"
+    }
+
+    .header {
+        grid-area: nav;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .artikel {
+        grid-area: artikel;
+    }
+
+    .salg {
+        grid-area: salg;
+    }
+
+
+    .foot {
+        grid-area: footer;
+    }
+    
+    artikel_grid {
+        display: grid;
+        grid-template-rows: 5vw auto 5vw auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "op1 op2 op3"
+            "t1 t2 t3"
+            "op4 op5 op6"
+            "t4 t5 t6"
+    }
+
+    /* Grid layout slut */
+
+    .emner {
+        display: none;
+    }
+
+    .nav_some {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .container_desktop {
+        background-color: #fffbe7;
+    }
+
+
+
+    .nav_liste_desktop {
+        border-top: 1px solid #9d9898;
+        border-bottom: 1px solid #9d9898;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .nav_emner {
+        margin-top: 25px;
+        font-family: 'Cookie', cursive;
+        font-weight: 400;
+        font-size: 2em;
+    }
+
+    .desk_logo {
+        width: 150px;
+    }
+
+    .artikel {
+        background-color: whitesmoke;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+        margin-top: 25px;
+
+    }
+     .artikel_salg {
+        background-color: whitesmoke;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+        margin-top: 25px;
+         padding-left: 15%;
+         padding-right: 15%;
+         padding-top: 2%;
+         padding-bottom: 2%;
+
+    }
+
+    .overs {
+        text-align: center;
+        font-family: 'Cookie', cursive;
+        font-size: 3em;
+    }
+
+
+}

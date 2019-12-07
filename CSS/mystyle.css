@@ -1,0 +1,1201 @@
+/* Reset alt */
+* {
+    margin: 0;
+
+}
+
+.container_desktop {
+    display: none;
+}
+
+.container {
+    background-color: #fffbe7;
+}
+
+/* grid layout */
+.container {
+    display: grid;
+    grid-template-rows: 12vw 65vw auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "nav"
+        "banner"
+        "salg"
+        "emner"
+        "footer"
+}
+
+.header {
+    grid-area: nav;
+}
+
+.banner {
+    grid-area: banner;
+}
+
+.salgs_tekst {
+    grid-area: salg;
+}
+
+.emner {
+    grid-area: emner;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.indhold {
+    display: none;
+}
+
+.indhold2 {
+    display: none;
+}
+
+/* grid layout slut */
+
+/* Links */
+.link {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f05454;
+}
+
+/* Links slut */
+
+/* Header */
+
+.header {
+    background-color: white;
+}
+
+.nav_some {
+    display: flex;
+    float: left;
+}
+
+.nav_element {
+    margin-left: -40px;
+    margin-top: 5px;
+    list-style: none;
+    padding: 5px;
+}
+
+
+
+.nav_instagram {
+    margin-left: -5px;
+}
+
+.some_logo {
+    float: left;
+    width: 30px;
+}
+
+.logo {
+    width: 22vw;
+    margin-right: 21%;
+
+}
+
+/*Burger menu */
+
+.nav {
+    border-top: 1px solid #9d9898;
+    border-bottom: 1px solid #9d9898;
+    text-align: right;
+    line-height: 50px;
+    height: auto;
+    min-height: 50px;
+
+}
+
+.menu {
+    margin: 0 20px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 50px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/* burger menu slut */
+
+/* Header slut */
+
+/* Banner */
+.banner {
+    background: url('../Images/bannermobil.png') no-repeat center;
+    background-size: 100%;
+}
+
+/* Banner slut */
+
+/* Salgs tekst */
+
+.salg {
+    display: none;
+}
+
+.salgs_tekst {
+    margin-top: 7px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+}
+
+.salgs_tekst_overskrift {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.broedtekst {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Salgs tekst slut */
+
+/* Indhold */
+
+.emner_overskrift {
+    font-family: 'Cookie', cursive;
+    font-size: 3.5em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.billede {
+    padding-top: 9px;
+    width: 100%;
+}
+
+.opskrifter {
+    background-color: #e7d5a0;
+    padding-bottom: 20px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+}
+
+.opskrifter_skrift {
+    color: #3c400d;
+}
+
+.mere_opskrifter {
+    background-color: #ef8a52;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+.events {
+    background-color: #7aa975;
+    padding-bottom: 20px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+}
+
+.events_skrift {
+    color: white;
+}
+
+.mere_events {
+    background-color: #e7d5a0;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    color: #3c400d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+}
+
+.om_plantefars {
+    background-color: #ef8a52;
+    padding-bottom: 20px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+}
+
+.om_plantefars_skrift {
+    color: white;
+}
+
+.mere_om_plantefars {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    color: #3c400d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+}
+
+.om_os {
+    background-color: #3c400d;
+    padding-bottom: 20px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+}
+
+.mere_om_os {
+    background-color: #e7d5a0;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    color: #3c400d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+}
+
+.footer {
+    background-color: #363535;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.footer_overskrift {
+    padding-top: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+.footer_underskrift {
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.footer_broedtekst {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 699px) {
+
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav {
+        position: fixed;
+        width: 100%;
+
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .container {
+        display: none;
+    }
+
+    /* Grid layout */
+    .container_desktop {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "nav nav"
+            "banner banner"
+            "salg salg"
+            "ind1 ind2"
+            "ind3 ind4"
+            "ind5 ind6"
+            "ind7 ind8"
+            "ind9 ind10"
+            "footer footer"
+    }
+
+    .header {
+        grid-area: nav;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .salgs_tekst {
+        grid-area: salg;
+    }
+
+    .col1 {
+        grid-area: ind1;
+    }
+
+    .col2 {
+        grid-area: ind2;
+    }
+
+    .col3 {
+        grid-area: ind3;
+    }
+
+    .col4 {
+        grid-area: ind4;
+    }
+
+    .col5 {
+        grid-area: ind5;
+    }
+
+    .col6 {
+        grid-area: ind6;
+    }
+
+    .col7 {
+        grid-area: ind7;
+    }
+
+    .col8 {
+        grid-area: ind8;
+    }
+
+    .col9 {
+        grid-area: ind9;
+    }
+
+    .col10 {
+        grid-area: ind10;
+    }
+
+    .foot {
+        grid-area: footer;
+        margin-top: 30px;
+        background-color: #363535;
+        color: white;
+    }
+
+    /* Grid layout slut */
+
+    .emner {
+        display: none;
+    }
+
+    .nav_some {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+   
+    .salg {
+        display: block;
+    }
+
+    .broedtekst {
+        font-size: 1.5em;
+    }
+
+
+    .container_desktop {
+        background-color: #fffbe7;
+    }
+
+    .nav_liste_desktop {
+        border-top: 1px solid #9d9898;
+        border-bottom: 1px solid #9d9898;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        font-size: 1.2em;
+        padding: 10px;
+
+
+    }
+
+    .banner {
+        background: none;
+        margin-top: -16px;
+    }
+
+    .nav_emner {
+        margin-top: 15px;
+        font-family: 'Cookie', cursive;
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+
+    .desk_logo {
+        width: 100px;
+    }
+
+    .salgs_tekst {
+        background-color: #f8f8f8;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+        margin-top: -14px;
+        margin-left: 2%;
+        margin-right: 2%;
+        border: 1px solid black;
+    }
+
+    .salgs_tekst_overskrift {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    .broedtekst_salgs {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5vw;
+    }
+
+    .col1 {
+        display: inline-block;
+        width: 96.5%;
+        font-size: 1.3vw;
+        margin-left: 4%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 300px;
+    }
+
+    .col2 {
+        display: inline-block;
+        width: 96%;
+        float: right;
+        font-size: 1.3vw;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 300px;
+    }
+
+    .col3 {
+        display: inline-block;
+        width: 96.5%;
+        font-size: 1.3vw;
+        margin-left: 4%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 300px;
+    }
+
+    .col4 {
+        display: inline-block;
+        width: 96%;
+        float: right;
+        font-size: 1.3vw;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 300px;
+    }
+
+
+
+    .col5 {
+        display: inline-block;
+        width: 96.5%;
+        font-size: 1.3vw;
+        margin-left: 4%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 200px;
+    }
+
+    .col6 {
+        display: inline-block;
+        width: 96%;
+        float: right;
+        font-size: 1.3vw;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 200px;
+    }
+
+    .col7 {
+        display: inline-block;
+        width: 96.5%;
+        font-size: 1.3vw;
+        margin-left: 4%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 300px;
+    }
+
+    .col8 {
+        display: inline-block;
+        width: 96%;
+        float: right;
+        font-size: 1.3vw;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 300px;
+    }
+
+    .col9 {
+        display: inline-block;
+        width: 96.5%;
+        font-size: 1.3vw;
+        margin-left: 4%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 300px;
+    }
+
+    .col10 {
+        display: inline-block;
+        width: 96%;
+        float: right;
+        font-size: 1.3vw;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 300px;
+    }
+
+
+
+    .broedtekst {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 70px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5em;
+    }
+
+    .emner_overskrift {
+        font-family: 'Cookie', cursive;
+        font-size: 3em;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .opskrifter {
+        background-color: #e7d5a0;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .opskrifter_skrift {
+        color: #3c400d;
+    }
+
+    .mere_opskrifter {
+        background-color: #ef8a52;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 30%;
+        margin-right: 30%;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+        margin-top: -20px;
+    }
+
+    .om_plantefars {
+        background-color: #ef8a52;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .om_plantefars_skrift {
+        color: white;
+    }
+
+    .mere_om_plantefars {
+        background-color: #fafafa;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        color: #3c400d;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 30%;
+        margin-right: 30%;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+        margin-top: -20px;
+    }
+
+    .fact1 {
+        background-color: #868383;
+    }
+
+    .fact_overskrift {
+        font-family: 'Lobster', cursive;
+        font-size: 6em;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .fact_overskrift1 {
+        font-family: 'Lobster', cursive;
+        font-size: 1.8em;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+
+
+
+    .footer_grid {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "kontakt firma some";
+
+    }
+
+    .kontakt_grid {
+        grid-area: kontakt;
+        text-align: center;
+        padding-left: 30%;
+
+    }
+
+    .firma_grid {
+        grid-area: firma;
+        text-align: center;
+    }
+
+    .some_grid {
+        grid-area: some;
+        text-align: center;
+        padding-right: 30%;
+    }
+
+
+    .kontakt_footer {
+        text-align: center;
+                list-style: none;
+        padding-right: 20%;
+    }
+
+    .footer_overskrift {
+        font-size: 1.5em;
+        margin-top: 30%;
+        text-align: center;
+          padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+
+    .footer_some {
+        list-style: none;
+        text-align: center;
+        padding-bottom: 10%;
+                padding-right: 15%;
+    }
+
+    .firma_overskrift {
+        font-size: 3em;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    .container {
+        display: none;
+    }
+
+    /* Grid layout */
+    .container_desktop {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "nav nav"
+            "banner banner"
+            "salg salg"
+            "ind1 ind2"
+            "ind3 ind4"
+            "ind5 ind6"
+            "ind7 ind8"
+            "ind9 ind10"
+            "footer footer"
+    }
+
+    .header {
+        grid-area: nav;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .salgs_tekst {
+        grid-area: salg;
+    }
+
+    .col1 {
+        grid-area: ind1;
+    }
+
+    .col2 {
+        grid-area: ind2;
+    }
+
+    .col3 {
+        grid-area: ind3;
+    }
+
+    .col4 {
+        grid-area: ind4;
+    }
+
+    .col5 {
+        grid-area: ind5;
+    }
+
+    .col6 {
+        grid-area: ind6;
+    }
+
+    .col7 {
+        grid-area: ind7;
+    }
+
+    .col8 {
+        grid-area: ind8;
+    }
+
+    .col9 {
+        grid-area: ind9;
+    }
+
+    .col10 {
+        grid-area: ind10;
+    }
+
+    .foot {
+        grid-area: footer;
+    }
+
+    /* Grid layout slut */
+
+    .emner {
+        display: none;
+    }
+
+    .nav_some {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+
+    .salg {
+        display: block;
+    }
+
+    .broedtekst {
+        font-size: 1.5em;
+    }
+
+
+    .container_desktop {
+        background-color: #fffbe7;
+    }
+
+    .nav_liste_desktop {
+        border-top: 1px solid #9d9898;
+        border-bottom: 1px solid #9d9898;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+        padding: 10px;
+
+
+    }
+
+    .banner {
+        background: none;
+        margin-top: -16px;
+    }
+
+    .nav_emner {
+        margin-top: 25px;
+        font-family: 'Cookie', cursive;
+        font-weight: 400;
+        font-size: 2em;
+    }
+
+    .desk_logo {
+        width: 150px;
+    }
+
+    .salgs_tekst {
+        background-color: #f8f8f8;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2) inset;
+        margin-left: 7.5%;
+        margin-right: 7.25%;
+        border: 1px solid black;
+    }
+
+    .salgs_tekst_overskrift {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    .broedtekst_salgs {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-bottom: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5vw;
+    }
+
+    .col1 {
+        display: inline-block;
+        width: 85.5%;
+        font-size: 1.3vw;
+        margin-left: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col2 {
+        display: inline-block;
+        width: 85.5%;
+        float: right;
+        font-size: 1.3vw;
+        margin-right: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col3 {
+        display: inline-block;
+        width: 85.5%;
+        font-size: 1.3vw;
+        margin-left: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col4 {
+        display: inline-block;
+        width: 85.5%;
+        float: right;
+        font-size: 1.3vw;
+        margin-right: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col5 {
+        display: inline-block;
+        width: 85.5%;
+        font-size: 1.3vw;
+        margin-left: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col6 {
+        display: inline-block;
+        width: 85.5%;
+        float: right;
+        font-size: 1.3vw;
+        margin-right: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col7 {
+        display: inline-block;
+        width: 85.5%;
+        font-size: 1.3vw;
+        margin-left: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col8 {
+        display: inline-block;
+        width: 85.5%;
+        float: right;
+        font-size: 1.3vw;
+        margin-right: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col9 {
+        display: inline-block;
+        width: 85.5%;
+        font-size: 1.3vw;
+        margin-left: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        min-height: 250px;
+    }
+
+    .col10 {
+        display: inline-block;
+        width: 85.5%;
+        float: right;
+        font-size: 1.3vw;
+        margin-right: 15%;
+        margin-top: 7px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        min-height: 250px;
+    }
+
+
+
+    .fact1 {
+        background-color: #868383;
+    }
+
+    .fact_overskrift {
+        font-family: 'Lobster', cursive;
+        font-size: 6em;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .fact_overskrift1 {
+        font-family: 'Lobster', cursive;
+        font-size: 1.8em;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+
+
+    .broedtekst {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 70px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    .emner_overskrift {
+        font-family: 'Cookie', cursive;
+        font-size: 3em;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .opskrifter {
+        background-color: #e7d5a0;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .opskrifter_skrift {
+        color: #3c400d;
+    }
+
+    .mere_opskrifter {
+        background-color: #ef8a52;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 30%;
+        margin-right: 30%;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+        margin-top: -20px;
+    }
+
+    .om_plantefars {
+        background-color: #ef8a52;
+        box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .om_plantefars_skrift {
+        color: white;
+    }
+
+    .mere_om_plantefars {
+        background-color: #fafafa;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: 'Lobster', cursive;
+        color: #3c400d;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 30%;
+        margin-right: 30%;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) inset;
+        margin-top: -20px;
+    }
+
+
+}
